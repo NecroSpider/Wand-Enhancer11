@@ -1,0 +1,18 @@
+[
+    {
+        "action": "hijack-dns",
+        "protocol": "dns"
+    },
+    {
+        "action": "route",
+        "ip_is_private": true,
+        "outbound": "direct"
+    },
+    {
+        "action": "route",
+        "outbound": "proxy",
+        "rule_set": [
+            "https://raw.githubusercontent.com/NecroSpider/Wand-Enhancer11/master/throne-ruleset.json"
+        ]
+    }
+]
